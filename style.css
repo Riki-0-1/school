@@ -1298,3 +1298,22 @@ margin-bottom: 3%;
   width: 80vw;
   height: 70vh;
 }
+.overviewpara{
+  font-size: 28px;
+  margin: 0 9.6% 2%;
+}
+.overviewpara a{
+  text-decoration: none;
+  color: blue;
+}
+
+/* our mission */
+.our_mission{
+  display: flex;
+  margin: 2% 15%;
+  gap: 3%;
+}
+.our_mission p{
+  font-size: 25px;
+  width: 59%;
+}
