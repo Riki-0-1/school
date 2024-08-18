@@ -48,94 +48,93 @@
   position: relative;
   /* margin-left: 20%; */
 }
-.nav1_3 ul li{
+.nav1_3 ul li {
   list-style: none;
   /* text-align: center;
   line-height: 50px; */
 }
 .blink {
-  -webkit-animation: blink .75s linear infinite;
-  -moz-animation: blink .75s linear infinite;
-  -ms-animation: blink .75s linear infinite;
-  -o-animation: blink .75s linear infinite;
-  animation: blink .75s linear infinite;
+  -webkit-animation: blink 0.75s linear infinite;
+  -moz-animation: blink 0.75s linear infinite;
+  -ms-animation: blink 0.75s linear infinite;
+  -o-animation: blink 0.75s linear infinite;
+  animation: blink 0.75s linear infinite;
 }
 
 @-webkit-keyframes blink {
   0% {
-      opacity: 1;
+    opacity: 1;
   }
   50% {
-      opacity: 1;
+    opacity: 1;
   }
   50.01% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 0;
+    opacity: 0;
   }
 }
 
 @-moz-keyframes blink {
   0% {
-      opacity: 1;
+    opacity: 1;
   }
   50% {
-      opacity: 1;
+    opacity: 1;
   }
   50.01% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 0;
+    opacity: 0;
   }
 }
 
 @-ms-keyframes blink {
   0% {
-      opacity: 1;
+    opacity: 1;
   }
   50% {
-      opacity: 1;
+    opacity: 1;
   }
   50.01% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 0;
+    opacity: 0;
   }
 }
 
 @-o-keyframes blink {
   0% {
-      opacity: 1;
+    opacity: 1;
   }
   50% {
-      opacity: 1;
+    opacity: 1;
   }
   50.01% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 0;
+    opacity: 0;
   }
 }
 
 @keyframes blink {
   0% {
-      opacity: 1;
+    opacity: 1;
   }
   50% {
-      opacity: 1;
+    opacity: 1;
   }
   50.01% {
-      opacity: 0;
+    opacity: 0;
   }
   100% {
-      opacity: 0;
+    opacity: 0;
   }
 }
-
 
 .nav2 {
   display: inline-block;
@@ -174,37 +173,20 @@
   color: white;
 }
 
-
 /* whatsapp logo  */
-.whatsapp a img{
+.whatsapp a img {
   position: fixed;
-    width: 90px;
-    height: 90px;
-    bottom: 38px;
-    right: 25px;
-    color: #25d366;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 2px 2px 3px #999;
-    z-index: 100;
+  width: 90px;
+  height: 90px;
+  bottom: 38px;
+  right: 25px;
+  color: #25d366;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 2px 2px 3px #999;
+  z-index: 100;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .nav3 {
   overflow: hidden;
@@ -220,7 +202,7 @@
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  margin-left:2%;
+  margin-left: 2%;
 }
 
 .dropdown {
@@ -230,7 +212,7 @@
 }
 
 .dropdown .dropbtn {
-  font-size: 20px;  
+  font-size: 20px;
   border: none;
   outline: none;
   color: white;
@@ -239,7 +221,8 @@
   font-family: inherit;
 }
 
-.navbar a:hover, .dropdown:hover .dropbtn {
+.navbar a:hover,
+.dropdown:hover .dropbtn {
   background-color: red;
 }
 
@@ -248,7 +231,7 @@
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   width: 13%;
 }
@@ -274,22 +257,15 @@
   display: block;
 }
 
-
-
-
-
-
 .adminmsg {
-  width:150px;
+  width: 150px;
   position: relative;
   font-weight: bold;
   font-size: 20px;
- 
 }
 
 .slideshow-container {
   display: flex;
-
 }
 
 .header2 {
@@ -299,7 +275,7 @@
   width: 100%;
   display: flex;
 }
-.header2para{
+.header2para {
   margin-top: 2%;
   margin-left: 15%;
   line-height: 40px;
@@ -308,10 +284,9 @@
 #header2_welcome {
   color: white;
   font-size: 50px;
- 
 }
 #header2_online_reg {
-   /* position: absolute;   */
+  /* position: absolute;   */
   background-color: darkblue;
   color: white;
   text-decoration: none;
@@ -321,10 +296,10 @@
   border-radius: 20px;
   width: 15%;
   height: 10%;
-  padding: 0.5%;  
+  padding: 0.5%;
   text-align: center;
   align-content: center;
-} 
+}
 #header2_img1 {
   height: 180px;
   display: inline-block;
@@ -332,12 +307,11 @@
   margin-left: 1%;
   mix-blend-mode: multiply;
   transform: rotate(-20deg);
-
 }
 #header2_img2 {
   height: 100px;
   margin-top: -10%;
-  display:flex; 
+  display: flex;
   margin-left: 100%;
   mix-blend-mode: multiply;
   transform: rotate(-30deg);
@@ -349,7 +323,7 @@
   margin-left: 10%;
   font-weight: bold;
   display: inline-block;
-  margin-top: 35px; 
+  margin-top: 35px;
 }
 
 #online_reg {
@@ -470,13 +444,10 @@
   }
 }
 
-
-
-
 /* topers */
-#toppers_mainpara{
+#toppers_mainpara {
   font-size: 40px;
-  font-weight:lighter;
+  font-weight: lighter;
   text-align: center;
   padding: 5%;
   font-weight: bold;
@@ -490,7 +461,7 @@
   background-color: lightgrey;
 }
 
-.toppers{
+.toppers {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 50px;
@@ -500,8 +471,7 @@
   margin-left: 2%;
 }
 
-
-.topper_card{
+.topper_card {
   border-radius: 20px;
   display: flex;
   flex-direction: column;
@@ -509,30 +479,28 @@
   height: 400px;
   align-content: center;
   margin-bottom: 1%;
- /* border: 2px solid red; */
+  /* border: 2px solid red; */
   text-align: center;
   margin-bottom: 20%;
-
-
 }
-.topper_card img{
+.topper_card img {
   width: 100%;
   height: 60%;
   border-radius: 10px;
 }
-.topper_name{
+.topper_name {
   margin-left: 10%;
   font-weight: bold;
   font-size: 2rem;
-  color:black;
+  color: black;
 }
-.topper_percentage{
+.topper_percentage {
   text-align: center;
   font-size: 2rem;
   font-weight: bold;
-  color:black;
+  color: black;
 }
-.topper_stream{
+.topper_stream {
   font-size: 24px;
   text-align: center;
   font-weight: bold;
@@ -540,15 +508,12 @@
   color: black;
 }
 
-
-
 /* our curriculam */
 .main_curr {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgb(0, 0, 83);
- 
 }
 
 .curriculam {
@@ -556,7 +521,6 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 60px;
   width: 80%;
-
 }
 .curr_card {
   height: 780px;
@@ -570,14 +534,13 @@
   margin-bottom: 25%;
   background-color: rgb(0, 0, 83);
   border: 2px solid white;
-
 }
 .curr_card img {
   height: 100%;
   width: 100%;
   border-radius: 20px;
 }
-.curr_card_image-container{
+.curr_card_image-container {
   width: 100%; /* Set the desired width */
   height: auto; /* Set the desired height */
   overflow: hidden; /* Ensure the image doesn't exceed the container */
@@ -586,7 +549,7 @@
 }
 .hover-image {
   width: 100%;
-  
+
   height: 100%;
   transition: transform 0.3s ease;
   transform-origin: center center;
@@ -597,7 +560,6 @@
   font-weight: bold;
   font-size: 2rem;
   color: white;
-
 }
 .curr_p1 {
   margin-left: 10%;
@@ -611,68 +573,63 @@
   margin-left: 10%;
   color: white;
 }
-#main_curr_para{
+#main_curr_para {
   position: absolute;
   font-size: 45px;
   margin-top: -47%;
   z-index: 55;
 }
 
-
 /* facility */
-#fac_para{
+#fac_para {
   font-size: 50px;
   font-weight: lighter;
   text-align: center;
   margin-top: 3%;
 }
-.facility{
-display: grid;
-grid-template-columns: repeat(6,0.5fr);
+.facility {
+  display: grid;
+  grid-template-columns: repeat(6, 0.5fr);
 
-padding-left: 5%;
-padding-right: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
 
-padding-top: 2%;
-width: 90%;
-text-align: center;
-margin-left: 5%;
+  padding-top: 2%;
+  width: 90%;
+  text-align: center;
+  margin-left: 5%;
 }
-.FCARD{
+.FCARD {
   text-align: center;
   justify-content: center;
   align-content: center;
   padding: 15%;
-  
 }
 
-.FCARD:HOVER img{
+.FCARD:hover img {
   transform: scaleX(-1);
   transition: all 0.5s;
-
 }
 
-.facility_para{
-font-size: 20px;
-text-align: center;
-
-
+.facility_para {
+  font-size: 20px;
+  text-align: center;
 }
-.facility2{
+.facility2 {
   display: grid;
-grid-template-columns: repeat(4,0.5fr);
-padding-left: 5%;
-padding-right: 5%;
-padding-bottom: 5%;
-width: 90%;
-margin-top: -2%;
-text-align: center;
-margin-left: 5%;
-text-align: center;
+  grid-template-columns: repeat(4, 0.5fr);
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+  width: 90%;
+  margin-top: -2%;
+  text-align: center;
+  margin-left: 5%;
+  text-align: center;
 }
 
 /* increasing */
-.increasing{
+.increasing {
   background-color: lightgray;
   height: 100%;
   width: 100%;
@@ -683,7 +640,6 @@ text-align: center;
   /* margin: 20px; */
   width: 80%;
   margin-left: 8%;
-  
 }
 
 .counter-display {
@@ -698,17 +654,17 @@ text-align: center;
   color: rgb(19, 19, 84);
   font-weight: bold;
 }
-.counter-name{
+.counter-name {
   margin-top: 8%;
-  margin-bottom:8%;
-  margin-left:3%;
+  margin-bottom: 8%;
+  margin-left: 3%;
   text-align: center;
   padding: 20px;
   border-radius: 8px;
   font-size: 40px;
   color: rgb(14, 14, 107);
 }
-.counter-sign{
+.counter-sign {
   margin-top: 1%;
   font-size: 3rem;
   margin-left: 1%;
@@ -716,7 +672,7 @@ text-align: center;
   color: rgb(19, 19, 84);
   position: absolute;
 }
-.counter-signper{
+.counter-signper {
   margin-top: 16%;
   margin-left: -2%;
   /* position: fixed; */
@@ -724,10 +680,6 @@ text-align: center;
   color: rgb(19, 19, 84);
   font-size: 52px;
 }
-
-
-
-
 
 /* management */
 .management_heading {
@@ -805,7 +757,6 @@ text-align: center;
   font-size: 1.5rem;
   color: rgba(0, 0, 246, 0.888);
   margin: 0;
-  
 }
 
 .degisination_detail {
@@ -830,15 +781,13 @@ text-align: center;
   display: block;
   color: black;
   font-size: 1.4rem;
-  
 }
-.managemant_readmore{
+.managemant_readmore {
   color: black;
   font-weight: bold;
   font-size: 1.5rem;
   text-decoration: none;
 }
-
 
 /* differ other */
 .differ_other {
@@ -854,8 +803,6 @@ text-align: center;
 #differ_other_p_content {
   font-size: 24px;
 }
-
-
 
 /* footer */
 #footers {
@@ -951,33 +898,26 @@ text-align: center;
   padding-right: 5%;
 }
 
-
-
-
-
-
 /* ABOUT US PAGE CSS */
 .aboutus {
- padding:2.5% 10% ;
+  padding: 2.5% 10%;
 }
-
 
 .aboutus h1 {
   font-size: 3rem;
   margin-bottom: 20px;
- padding-bottom: 1px;
- border-color: rgb(146, 146, 9) ;
- border-bottom-style: solid;
- border-bottom-width: 8px ;
- border-radius: 20px;
- width: fit-content;
+  padding-bottom: 1px;
+  border-color: rgb(146, 146, 9);
+  border-bottom-style: solid;
+  border-bottom-width: 8px;
+  border-radius: 20px;
+  width: fit-content;
 }
 
 .aboutus h1 .highlight {
-  color:  rgb(0, 0, 95);
+  color: rgb(0, 0, 95);
   font-size: 50px;
-  font-weight:bolder;
-
+  font-weight: bolder;
 }
 
 .aboutuspara1 {
@@ -985,87 +925,77 @@ text-align: center;
   line-height: 1.6;
 }
 
-.about_corevalues{
+.about_corevalues {
   height: 100%;
-  background-image: linear-gradient( rgb(35, 35, 185),skyblue);
+  background-image: linear-gradient(rgb(35, 35, 185), skyblue);
   padding: 2% 8%;
 }
-.about_corevalues_para2{
+.about_corevalues_para2 {
   font-size: 1.6em;
   line-height: 1.6;
   color: white;
-  list-style-type:none;;
+  list-style-type: none;
   /* margin-left: 8%; */
   /* padding-bottom: 2%; */
 }
 
-#about_corevalues_para1{
+#about_corevalues_para1 {
   padding: 2% 0;
   color: white;
   font-size: 40px;
 }
 
-
-
-
-
 /* statement_philosophy page */
-.statement_philosophy{
- padding:2.5% 10% ;
-
+.statement_philosophy {
+  padding: 2.5% 10%;
 }
 
 .statement_philosophy #para1 .highlight {
-  color:  rgb(0, 0, 95);
+  color: rgb(0, 0, 95);
   font-size: 50px;
-  font-weight:bolder;
-
+  font-weight: bolder;
 }
 
-.statement_philosophy  #para1{
-  
-    font-size: 3rem;
-    margin-bottom: 20px;
-   padding-bottom: 1px;
-   border-color: rgb(146, 146, 9) ;
-   border-bottom-style: solid;
-   border-bottom-width: 8px ;
-   border-radius: 20px;
-   width: fit-content;
-  
+.statement_philosophy #para1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  padding-bottom: 1px;
+  border-color: rgb(146, 146, 9);
+  border-bottom-style: solid;
+  border-bottom-width: 8px;
+  border-radius: 20px;
+  width: fit-content;
 }
-.philisophy_pra{
+.philisophy_pra {
   font-size: 1.6em;
   line-height: 1.6;
 }
 
-
 /* leadershipteam */
 
-
-.leadershipteam{
+.leadershipteam {
   height: 100%;
   width: 100%;
   margin-top: 3%;
   margin-bottom: 3%;
 }
-#leadership_heading_main_para{
+#leadership_heading_main_para {
   font-size: 3rem;
-    margin-bottom: 20px;
-   padding-bottom: 1px;
-   border-color: rgb(146, 146, 9) ;
-   border-bottom-style: solid;
-   border-bottom-width: 8px ;
-   border-radius: 20px;
-   width: fit-content;
-   margin-left: 11%;
-   margin-bottom: 2%;
+  margin-bottom: 20px;
+  padding-bottom: 1px;
+  border-color: rgb(146, 146, 9);
+  border-bottom-style: solid;
+  border-bottom-width: 8px;
+  border-radius: 20px;
+  width: fit-content;
+  margin-left: 11%;
+  margin-bottom: 2%;
 }
 
-#leadership_heading_main_para .highlight{ 
-  color:  rgb(0, 0, 95);
+#leadership_heading_main_para .highlight {
+  color: rgb(0, 0, 95);
   font-size: 50px;
-  font-weight:bolder;
+  font-weight: bolder;
 }
 .leadership_gridbox {
   display: flex;
@@ -1091,7 +1021,7 @@ text-align: center;
   align-items: center;
   justify-content: center;
 }
-.leadership_imgdiv{
+.leadership_imgdiv {
   overflow: hidden;
   border-radius: 20px;
   width: 100%;
@@ -1101,29 +1031,27 @@ text-align: center;
   border-radius: 20px;
   width: 100%;
   padding: 2%;
-  overflow:hidden;
+  overflow: hidden;
   transition: transform 0.5s ease;
 }
-.leadership_imgdiv img:hover{
+.leadership_imgdiv img:hover {
   transform: scale(1.5);
 }
 #leadership_readmore {
   text-decoration: none;
   font-size: 25px;
-  color: rgb(237, 208, 39);;
-  border: 3px solid rgb(237, 208, 39);;
+  color: rgb(237, 208, 39);
+  border: 3px solid rgb(237, 208, 39);
   padding: 1% 31%;
   display: inline-block;
   margin-top: 5%;
- font-size: 25px;
- font-weight: bold;
-
-  
+  font-size: 25px;
+  font-weight: bold;
 }
 
 #leadership_deg_designation {
   font-size: 25px;
-  margin: 10px 0;;
+  margin: 10px 0;
   color: rgb(237, 208, 39);
 }
 
@@ -1140,21 +1068,18 @@ text-align: center;
   line-height: 1.7;
 }
 
-
-
 /* CBSE GUIDELINE AND PHILOSOPHY and SPORT ACADEMY CODE */
 
-.cbse_guideline p{
+.cbse_guideline p {
   height: 100%;
   width: 100%;
-  font-size:60px ;
-  font-family:'Courier New', Courier, monospace;
+  font-size: 60px;
+  font-family: "Courier New", Courier, monospace;
   text-align: center;
   padding: 2%;
   background-color: #ddd;
-  
 }
-.cbse_guideline_lists{
+.cbse_guideline_lists {
   list-style: decimal;
   font-size: 25px;
   margin-left: 10%;
@@ -1162,71 +1087,67 @@ text-align: center;
   padding: 2%;
 }
 
-.cbse_guideline_lists a{
+.cbse_guideline_lists a {
   color: blue;
   text-decoration: none;
 }
 
 /* TRANSPORT */
-#transport{
-display: flex;
-flex-direction: row;
-width: 60%;
-margin-left: 15%;
+#transport {
+  display: flex;
+  flex-direction: row;
+  width: 60%;
+  margin-left: 15%;
 }
-#transport img{
+#transport img {
   border-radius: 20px;
 }
 
 /* Admission Process Fee Structure */
-.admission_process_fee_detail{
+.admission_process_fee_detail {
   line-height: 2.2;
   margin-bottom: 3%;
-
 }
-.admission_process_fee_detail ul li{
+.admission_process_fee_detail ul li {
   margin-left: 1%;
 }
-#admission_process_table{
+#admission_process_table {
   border: 2px solid grey;
 }
-#admission_process_table tr td{
+#admission_process_table tr td {
   border: 2px solid grey;
- text-align: center;
-
-
+  text-align: center;
 }
-#admission_process_table thead tr th{
+#admission_process_table thead tr th {
   border: 2px solid grey;
   background-color: rgb(97, 97, 239);
   height: 60px;
   padding: 20px;
 }
-#admission_process_table tbody tr th{
+#admission_process_table tbody tr th {
   border: 2px solid grey;
   padding: 10px;
-
 }
-#admission_process_table{
+#admission_process_table {
   margin-bottom: 1%;
 }
-#feestructure_h2{
+#feestructure_h2 {
   color: rgb(3, 3, 77);
   font-weight: 10;
   padding: 1% 0;
   font-size: 47px;
 }
-.admission_image{
+.admission_image {
   height: 50px;
 }
-.admission_process_fee_detail ul li{
+.admission_process_fee_detail ul li {
   list-style: none;
   margin: 1px;
 }
 
 /* Payments */
 
-.onlinepayments a{
+.onlinepayments a {
   text-decoration: none;
   font-size: 22px;
   text-align: center;
@@ -1235,39 +1156,34 @@ margin-left: 15%;
   margin-left: 12%;
   color: rgb(1, 1, 78);
 }
-.onlinepayments{
-margin-left: 43%;
-background-color: rgb(239, 237, 237);
-border: 2px solid red;
-width: 16%;
-height: 70px;
-line-height: 70px;
-margin-top: 3%;
-margin-bottom: 3%;
-
-
+.onlinepayments {
+  margin-left: 43%;
+  background-color: rgb(239, 237, 237);
+  border: 2px solid red;
+  width: 16%;
+  height: 70px;
+  line-height: 70px;
+  margin-top: 3%;
+  margin-bottom: 3%;
 }
 
-.onlinepaymentsgrid{
+.onlinepaymentsgrid {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   margin-left: 10%;
   height: 100%;
   /* border: 2px solid red; */
   gap: 80px;
   width: 80vw;
   margin-bottom: 5%;
-
 }
-.onlinepayment{
+.onlinepayment {
   height: 100%;
   /* border: 5px solid green; */
   background-color: lightgrey;
   margin-bottom: 5%;
-
-
 }
-.onlinepaymentaddress{
+.onlinepaymentaddress {
   background-color: grey;
   font-size: 40px;
   font-weight: bold;
@@ -1275,45 +1191,202 @@ margin-bottom: 3%;
   padding: 2%;
   height: 90px;
   line-height: 70px;
-
 }
-.onlinepaymentdetail{
+.onlinepaymentdetail {
   margin: 5% 5%;
-
-
 }
-.onlinepaymentdetail ul li{
+.onlinepaymentdetail ul li {
   list-style: none;
   font-size: 27px;
   margin: 2%;
 }
 
 /* overview */
-.overviewdiv{
+.overviewdiv {
   justify-content: center;
   display: flex;
   margin: 5%;
 }
-.overviewdiv img{
+.overviewdiv img {
   width: 80vw;
   height: 70vh;
 }
-.overviewpara{
+.overviewpara {
   font-size: 28px;
   margin: 0 9.6% 2%;
 }
-.overviewpara a{
+.overviewpara a {
   text-decoration: none;
   color: blue;
 }
 
 /* our mission */
-.our_mission{
+.our_mission {
   display: flex;
   margin: 2% 15%;
   gap: 3%;
 }
-.our_mission p{
+.our_mission p {
   font-size: 25px;
   width: 59%;
+}
+
+/* INFRASTRUCTURE */
+
+.infrastructure_main_div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  width: 85%;
+  margin-left: 7.5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.infrastructuregrid {
+  box-shadow: 10px 10px 10px rgb(157, 157, 157);
+  border-radius: 20px;
+  cursor: pointer;
+}
+.infrastructuregrid img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+.infraaimgdiv {
+  width: 100%;
+  height: 30vh;
+  border-radius: 20px;
+}
+.infrastructuregrid h3 {
+  text-align: center;
+  padding: 5%;
+  font-size: x-large;
+  font-weight: 100;
+}
+
+/* facilities */
+
+.facilitydivmain {
+  margin-top: 3.5%;
+  display: flex;
+}
+.facilitiesdiv {
+  margin-left: 10%;
+  font-size: 27px;
+}
+.facilitiesdiv b {
+  color: rgb(0, 89, 255);
+}
+.facilitiesdiv a {
+  text-decoration: none;
+  color: blue;
+}
+
+.aside {
+  width: 75%;
+  border-radius: 20px;
+  overflow: scroll;
+  margin-right: 10%;
+  margin-left: 2%;
+  margin-bottom: 5%;
+  height: 85vh;
+  background-color: rgb(243, 241, 241);
+}
+.facility_aside_heading {
+  color: white;
+  background-color: rgb(4, 4, 108);
+  font-size: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.facility_aside_heading img {
+  margin: 5% 10%;
+  width: 10%;
+  filter: brightness(1) invert(1);
+  clip-path: circle(50% at 50% 50%);
+}
+.facility_aside_heading h3 {
+  margin: 5% -7%;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 10;
+}
+.facility_aside_list_div {
+  display: flex;
+  font-size: 27px;
+  margin-bottom: 5%;
+}
+.facility_aside_list_div img {
+  width: 8%;
+  mix-blend-mode: multiply;
+  clip-path: circle(50% at 50% 50%);
+}
+.facility_aside_list_div p {
+  margin-left: 5%;
+}
+.facility_aside_list_main_div{
+  margin: 12% 12%;
+}
+
+
+/* photo gallery */
+
+
+.photogallery_year{
+  width:80%;
+  background-color: lightgrey;
+  height:7vh;
+  display: flex;
+  align-items: center;
+  margin-left: 11%;
+  border-radius: 10px;
+}
+.photogallery_year a{
+  margin-left: 1.5%;
+  background-color: rgb(3, 3, 110);
+  width: 7%;
+  height: 70%;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.photo_gallery_main_div {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  row-gap: 60px;
+  width: 82vw;
+  margin-left: 11%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.photogallery_grid {
+  box-shadow: 10px 10px 10px rgb(157, 157, 157);
+  border-radius: 20px;
+  cursor: pointer;
+  width: 17vw;
+  justify-content: center;
+  align-content: center;
+
+}
+.photogallery_grid img {
+  width: 17vw;
+  height: 100%;
+  border-radius: 20px;
+ 
+}
+.photogallery_img_div {
+  
+  width: 70%;
+  height: 30vh;
+  border-radius: 20px;
+}
+.photogallery_grid h3 {
+  text-align: center;
+  padding: 5%;
+  font-size: x-large;
+  font-weight: 100;
 }

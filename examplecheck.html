@@ -12,149 +12,129 @@
             box-sizing: border-box;
         }
 
-        .leadership_gridbox {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-
-        .leadership_grid {
+        .photo_gallery_main_div {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            gap: 60px; /* Adjusted gap */
-            row-gap: 80px;
-        }
-
-        .leadership_containermain {
-            background-color: darkblue;
-            border-radius: 20px;
-            padding: 10px;
-            overflow: hidden;
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-        }
-        .leadership_imgdiv{
-            overflow: hidden;
-            border-radius: 20px;
-            width: 100%;
-        }
-
-        .leadership_imgdiv img {
-            border-radius: 20px;
-            width: 100%;
-            padding: 2%;
-            overflow:hidden;
-            transition: transform 0.5s ease;
-        }
-        .leadership_imgdiv img:hover{
-            transform: scale(1.5);
-        }
-        #leadership_readmore {
-            text-decoration: none;
-            font-size: 25px;
-            color: rgb(237, 208, 39);;
-            border: 3px solid rgb(237, 208, 39);;
-            padding: 1% 31%;
-            display: inline-block;
+            gap: 30px;
+            width: 85%;
+            margin-left: 7.5%;
             margin-top: 5%;
-           font-size: 25px;
-           font-weight: bold;
-
-            
-        }
-
-        #leadership_deg_designation {
-            font-size: 25px;
-            margin: 10px 0;;
-            color: rgb(237, 208, 39);
-        }
-
-        #leadership_degname {
-            text-decoration: none;
-            color: white;
-            font-size: 30px;
+            margin-bottom: 5%;
+          }
+          .photogallery_grid {
+            box-shadow: 10px 10px 10px rgb(157, 157, 157);
+            border-radius: 20px;
+            cursor: pointer;
+          }
+          .photogallery_grid img {
+            width: 100%;
+            height: 100%;
+            border-radius: 20px;
+          }
+          .photogallery_img_div {
+            width: 100%;
+            height: 30vh;
+            border-radius: 20px;
+          }
+          .photogallery_grid h3 {
             text-align: center;
-        }
-
-        .leadership_degdetail {
-            text-align: center;
-            margin: 2%;
-            line-height: 1.7;
-        }
+            padding: 5%;
+            font-size: x-large;
+            font-weight: 100;
+          }
     </style>
 </head>
 
 <body>
-    <div class="gridbox">
-    <div class="grid">
-        <div class="containermain">
-            <div class="imgdiv">
-                <img src="m_krishna_team-1.jpeg" alt="">
+    <div class="photo_gallery_main_div">
+        <div class="photogallery_grid">
+            <div class="photogallery_img_div">
+                <img src="amphitheater.jpg" alt="amphitheater">
             </div>
-            <div class="degdetail">
-                <a id="degname" href="#">MR. KRISHNA KALARA</a>
-                <p id="deg_designation">Chairman</p>
-                <a id="readmore" href="#">Read more</a>
-            </div>
+            <h3>AMPHITHEATER</h3>
+
         </div>
 
-        <div class="containermain">
-            <div class="imgdiv">
-                <img src="m_krishna_team-1.jpeg" alt="">
+        <div class="photogallery_grid">
+            <div class="photogallery_img_div">
+                <img src="computerlab.jpg" alt="computer lab">
             </div>
-            <div class="degdetail">
-                <a id="degname" href="#">MR. KRISHNA KALARA</a>
-                <p id="deg_designation">Chairman</p>
-                <a id="readmore" href="#">Read more</a>
+            <h3>COMPUTER LAB</h3>
+
+        </div>
+        <div class="photogallery_grid">
+            <div class="photogallery_img_div">
+                <img src="dancehall.jpg" alt="dance hall">
             </div>
+            <h3>DANCE HALL</h3>
+
+        </div>
+        <div class="photogallery_grid">
+            <div class="photogallery_img_div">
+                <img src="indooraudotorium.jpg" alt="indoor audotorium">
+            </div>
+            <h3>INDOOR AUDITORIUM</h3>
+
+        </div>
+        <div class="photogallery_grid">
+            <div class="photogallery_img_div">
+                <img src="indoorsport.jpg" alt="INDOOR SPORTS">
+            </div>
+            <h3>INDOOR SPORTS</h3>
+
+        </div>
+        <div class="photogallery_grid">
+            <div class="photogallery_img_div">
+                <img src="laboratories.jpg" alt="laboratories">
+            </div>
+            <h3>LABORATORIES</h3>
+
         </div>
 
-        <div class="containermain">
-            <div class="imgdiv">
-                <img src="m_krishna_team-1.jpeg" alt="">
+        <div class="photogallery_grid">
+            <div class="photogallery_img_div">
+                <img src="library.jpg" alt="library">
             </div>
-            <div class="degdetail">
-                <a id="degname" href="#">MR. KRISHNA KALARA</a>
-                <p id="deg_designation">Chairman</p>
-                <a id="readmore" href="#">Read more</a>
+            <h3>LIBRARY</h3>
+
+        </div>
+        <div class="photogallery_grid">
+            <div class="photogallery_img_div">
+                <img src="music studio.jpg" alt="music studio">
             </div>
+            <h3>MUSIC STUDIO</h3>
+
+        </div>
+        <div class="photogallery_grid">
+            <div class="photogallery_img_div">
+                <img src="outdoorsports.jpg" alt="outdoorsports">
+            </div>
+            <h3>OUTDOOR SPORTS</h3>
+
+        </div>
+        <div class="photogallery_grid">
+            <div class="photogallery_img_div">
+                <img src="smartclassroom.jpg" alt="SMART CLASSROOMS">
+            </div>
+            <h3>SMART CLASSROOMS</h3>
+
+        </div>
+        <div class="photogallery_grid">
+            <div class="photogallery_img_div">
+                <img src="sportsacademy.jpg" alt="SPORTS ACADEMY">
+            </div>
+            <h3>SPORTS ACADEMY</h3>
+
+        </div>
+        <div class="photogallery_grid">
+            <div class="photogallery_img_div">
+                <img src="tenniscourt.jpg" alt="TENNIS COURT">
+            </div>
+            <h3>TENNIS COURT</h3>
+
         </div>
 
-        <div class="containermain">
-            <div class="imgdiv">
-                <img src="m_krishna_team-1.jpeg" alt="">
-            </div>
-            <div class="degdetail">
-                <a id="degname" href="#">MR. KRISHNA KALARA</a>
-                <p id="deg_designation">Chairman</p>
-                <a id="readmore" href="#">Read more</a>
-            </div>
-        </div>
-        <div class="containermain">
-            <div class="imgdiv">
-                <img src="m_krishna_team-1.jpeg" alt="">
-            </div>
-            <div class="degdetail">
-                <a id="degname" href="#">MR. KRISHNA KALARA</a>
-                <p id="deg_designation">Chairman</p>
-                <a id="readmore" href="#">Read more</a>
-            </div>
-        </div>
-        <div class="containermain">
-            <div class="imgdiv">
-                <img src="m_krishna_team-1.jpeg" alt="">
-            </div>
-            <div class="degdetail">
-                <a id="degname" href="#">MR. KRISHNA KALARA</a>
-                <p id="deg_designation">Chairman</p>
-                <a id="readmore" href="#">Read more</a>
-            </div>
-        </div>
     </div>
-</div>
 </body>
 
 </html>
