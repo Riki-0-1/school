@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .leadership_gridbox {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .leadership_grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 60px; /* Adjusted gap */
+            row-gap: 80px;
+        }
+
+        .leadership_containermain {
+            background-color: darkblue;
+            border-radius: 20px;
+            padding: 10px;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .leadership_imgdiv{
+            overflow: hidden;
+            border-radius: 20px;
+            width: 100%;
+        }
+
+        .leadership_imgdiv img {
+            border-radius: 20px;
+            width: 100%;
+            padding: 2%;
+            overflow:hidden;
+            transition: transform 0.5s ease;
+        }
+        .leadership_imgdiv img:hover{
+            transform: scale(1.5);
+        }
+        #leadership_readmore {
+            text-decoration: none;
+            font-size: 25px;
+            color: rgb(237, 208, 39);;
+            border: 3px solid rgb(237, 208, 39);;
+            padding: 1% 31%;
+            display: inline-block;
+            margin-top: 5%;
+           font-size: 25px;
+           font-weight: bold;
+
+            
+        }
+
+        #leadership_deg_designation {
+            font-size: 25px;
+            margin: 10px 0;;
+            color: rgb(237, 208, 39);
+        }
+
+        #leadership_degname {
+            text-decoration: none;
+            color: white;
+            font-size: 30px;
+            text-align: center;
+        }
+
+        .leadership_degdetail {
+            text-align: center;
+            margin: 2%;
+            line-height: 1.7;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="gridbox">
+    <div class="grid">
+        <div class="containermain">
+            <div class="imgdiv">
+                <img src="m_krishna_team-1.jpeg" alt="">
+            </div>
+            <div class="degdetail">
+                <a id="degname" href="#">MR. KRISHNA KALARA</a>
+                <p id="deg_designation">Chairman</p>
+                <a id="readmore" href="#">Read more</a>
+            </div>
+        </div>
+
+        <div class="containermain">
+            <div class="imgdiv">
+                <img src="m_krishna_team-1.jpeg" alt="">
+            </div>
+            <div class="degdetail">
+                <a id="degname" href="#">MR. KRISHNA KALARA</a>
+                <p id="deg_designation">Chairman</p>
+                <a id="readmore" href="#">Read more</a>
+            </div>
+        </div>
+
+        <div class="containermain">
+            <div class="imgdiv">
+                <img src="m_krishna_team-1.jpeg" alt="">
+            </div>
+            <div class="degdetail">
+                <a id="degname" href="#">MR. KRISHNA KALARA</a>
+                <p id="deg_designation">Chairman</p>
+                <a id="readmore" href="#">Read more</a>
+            </div>
+        </div>
+
+        <div class="containermain">
+            <div class="imgdiv">
+                <img src="m_krishna_team-1.jpeg" alt="">
+            </div>
+            <div class="degdetail">
+                <a id="degname" href="#">MR. KRISHNA KALARA</a>
+                <p id="deg_designation">Chairman</p>
+                <a id="readmore" href="#">Read more</a>
+            </div>
+        </div>
+        <div class="containermain">
+            <div class="imgdiv">
+                <img src="m_krishna_team-1.jpeg" alt="">
+            </div>
+            <div class="degdetail">
+                <a id="degname" href="#">MR. KRISHNA KALARA</a>
+                <p id="deg_designation">Chairman</p>
+                <a id="readmore" href="#">Read more</a>
+            </div>
+        </div>
+        <div class="containermain">
+            <div class="imgdiv">
+                <img src="m_krishna_team-1.jpeg" alt="">
+            </div>
+            <div class="degdetail">
+                <a id="degname" href="#">MR. KRISHNA KALARA</a>
+                <p id="deg_designation">Chairman</p>
+                <a id="readmore" href="#">Read more</a>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+
+</html>
+
+
