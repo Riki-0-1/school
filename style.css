@@ -1339,6 +1339,7 @@
   align-items: center;
   margin-left: 11%;
   border-radius: 10px;
+  margin-top: 2%;
 }
 .photogallery_year a{
   margin-left: 1.5%;
@@ -1389,4 +1390,32 @@
   padding: 5%;
   font-size: x-large;
   font-weight: 100;
+}
+
+
+/* video tour */
+.video_tour{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 80%;
+  margin-left: 11%;
+  gap: 40px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.video_tour iframe{
+  border-radius: 20px;
+
+}
+
+/* virtual video tour */
+.virtual_video_tour{
+  margin-left: 11%;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.virtual_video_tour iframe{
+  width: 90%;
+  height: 70vh;
+  border-radius: 10px;
 }
