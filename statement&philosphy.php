@@ -45,32 +45,32 @@
                 <!-- <i class="fa-brands fa-whatsapp"></i> -->
         </div>
         <div class="nav3">
-            <a href="index.html">HOME</a>
-
+            <a href="index.php">HOME</a>
+        
             <div class="dropdown">
                 <button class="dropbtn">OUR SCHOOL
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="about.html">About School</a>
-                    <a href="statement&philosphy.html">Statement & Philosophy</a>
-                    <a href="leadershipteam.html">Our Leadership Team</a>
+                    <a href="about.php">About School</a>
+                    <a href="statement&philosphy.php">Statement & Philosophy</a>
+                    <a href="leadershipteam.php">Our Leadership Team</a>
                     <a href="#">The Advisory Board</a>
-                    <a href="cbse_guidelines_philoshpy.html">CBSE Guideline And Philosophy </a>
-                    <a href="sports_academy.html">Sports Academy</a>
-                    <a href="#">Mandatory Disclosures</a>
+                    <a href="cbse_guidelines_philoshpy.php">CBSE Guideline And Philosophy </a>
+                    <a href="sports_academy.php">Sports Academy</a>
+                    <a href="mandatory_disclosure.php">Mandatory Disclosures</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">ADMISSION
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Admission Process</a>
+                    <a href="admission_process.php">Admission Process</a>
                     <a href="#">Online Registration</a>
-                    <a href="#">Payments</a>
-                    <a href="schooltransport.html">School Transport</a>
-                    <a href="#">Entrance Test Syllabus
+                    <a href="payments.php">Payments</a>
+                    <a href="schooltransport.php">School Transport</a>
+                    <a href="entrancetestsyllabus.php">Entrance Test Syllabus
                         2024-2025
                     </a>
                 </div>
@@ -78,89 +78,83 @@
 
             <div class="dropdown">
                 <button class="dropbtn">OUR CAMPUS
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Overview</a>
-                    <a href="#">Infrastructure</a>
-                    <a href="#">Facilities</a>
-                    <a href="#">Photo Gallery</a>
-                    <a href="#">Virtual Tour</a>
+                    <a href="overview.php">Overview</a>
+                    <a href="infrastructure.php">Infrastructure</a>
+                    <a href="facilities.php">Facilities</a>
+                    <a href="photo_gallery.php">Photo Gallery</a>
+                    <a href="virtual_video_tour.php">Virtual Tour</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">OUR CURRICULUM
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Curriculum And Assessment</a>
-                    <a href="#">Academic Practice</a>
-                    <a href="#">Academic Calendar</a>
+                    <a href="curriculam-and-assessment.php">Curriculum And Assessment</a>
+                    <a href="bestacadimicpractices.php">Academic Practice</a>
+                    <a href="academic-calendar.php">Academic Calendar</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">FOR PARENTS
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Students Activities</a>
-                    <a href="#">Guidelines And Policies</a>
-                    <a href="#">Health Guideline And Policy</a>
-                    <a href="#">Feedback</a>
-                    <a href="#">Circulars</a>
+                    <a href="student-activities.php">Students Activities</a>
+                    <a href="guidelines-and-policies.php">Guidelines And Policies</a>
+                    <a href="health-and-medicine.php">Health Guideline And Policy</a>
+                    <a href="feedback.php">Feedback</a>
+                    <a href="curriculam-and-assessment.php">Circulars</a>
 
                 </div>
             </div>
 
             <div class="dropdown">
                 <button class="dropbtn">FOR STUDENT
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
                     <a href="#">Student Council</a>
-                    <a href="#">Responsibilities And Rights</a>
-                    <a href="#">Rules And Policies</a>
+                    <a href="student-responsibility-and-rights.php">Responsibilities And Rights</a>
+                    <a href="student_rules_and_policies.php">Rules And Policies</a>
                     <a href="#">Disipline Incharges</a>
                     <a href="#">TC Issued</a>
 
                 </div>
             </div>
             <a class="dropbtn_anchor" href="#">BLOG</a>
-            <a class="dropbtn_anchor" href="#">CONTACT</a>
+
+            <a class="dropbtn_anchor" href="contact.php">CONTACT</a>
+
+
+
         </div>
+
     </header>
 
-    <div class="cbse_guideline transport" >
-        <p>
-            SCHOOL TRANSPORT
-        </p>
-    </div>
-    <div class="cbse_guideline_lists" id="transport">
-       <p>
-        Our School buses operate on specific rules, depending on the number of student on the routes. While we try our at most, it is not practically possible, to drop students at the doorstep of their homes. On finalization of the route no changes or diversions will be entertained, and parents are requested to corporate. The transport in charge may be contacted regarding any transport matter. Kindly do not discuss directly with the driver or conductor.
-    </p>
-    <img src="transport.html" alt="Transport Img">
-    </div>
 
 
 
 
 
 
+<div class="statement_philosophy">
+
+    <p id="para1">The Statement <span class="highlight">&School Philosophy</span> </p>
+    <div class="philisophy_pra"> <p>
+
+        In the nature v/s nurture debate, you will find us, at The International School Agra, definitely leaning towards Nurture. We believe that it is our innate responsibility to provide children with an environment that they feel comfortable in, a space that motivates them to accomplish their best, a space where they can explore ways to be better, a space that ends up feeling like a second home. <br><br>
 
 
+And hence, our motto in a few simple words: Sowing Seeds of Success. It’s not just something philosophical but rather practical for TISA. This is how we see it, when we began our journey in 2014 year, to become of the Best CBSE Schools in Agra, the first question we asked ourselves was this: What does a child need to grow, what is the fundamental requirement for them to be the best version of themselves ? And we found our answer. <br><br>
 
 
-
-
-
-
-
-
-
-
-
-
+It is a global standard curriculum, it is a diverse learning environment, it is providing the best sports facilities as well as co-curricular activities, it is giving them a controlled competitive environment while providing them choices at each touchpoint that help them take charge of their life. We take pride in our students, in all that they set-out to accomplish, they inspire us as much as we try to inspire them.
+    </p></div>
+</div>
 
 
 

@@ -50,32 +50,31 @@
                 <!-- <i class="fa-brands fa-whatsapp"></i> -->
         </div>
         <div class="nav3">
-            <a href="index.html">HOME</a>
+            <a href="index.php">HOME</a>
         
             <div class="dropdown">
-                <button class="dropbtn">OUR SCHOOL
-                    <i class="fa fa-caret-down"></i>
+                <button class="dropbtn">OUR SCHOOL ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="about.html">About School</a>
-                    <a href="statement&philosphy.html">Statement & Philosophy</a>
-                    <a href="leadershipteam.html">Our Leadership Team</a>
+                    <a href="about.php">About School</a>
+                    <a href="statement&philosphy.php">Statement & Philosophy</a>
+                    <a href="leadershipteam.php">Our Leadership Team</a>
                     <a href="#">The Advisory Board</a>
-                    <a href="#">CBSE Guideline And Philosophy </a>
-                    <a href="#">Sports Academy</a>
-                    <a href="#">Mandatory Disclosures</a>
+                    <a href="cbse_guidelines_philoshpy.php">CBSE Guideline And Philosophy </a>
+                    <a href="sports_academy.php">Sports Academy</a>
+                    <a href="mandatory_disclosure.php">Mandatory Disclosures</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">ADMISSION
-                    <i class="fa fa-caret-down"></i>
+                ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Admission Process</a>
+                    <a href="admission_process.php">Admission Process</a>
                     <a href="#">Online Registration</a>
                     <a href="#">Payments</a>
-                    <a href="schooltransport.html">School Transport</a>
-                    <a href="#">Entrance Test Syllabus
+                    <a href="schooltransport.php">School Transport</a>
+                    <a href="entrancetestsyllabus.php">Entrance Test Syllabus
                         2024-2025
                     </a>
                 </div>
@@ -83,48 +82,48 @@
 
             <div class="dropdown">
                 <button class="dropbtn">OUR CAMPUS
-                    <i class="fa fa-caret-down"></i>
+                ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Overview</a>
-                    <a href="#">Infrastructure</a>
-                    <a href="#">Facilities</a>
-                    <a href="#">Photo Gallery</a>
-                    <a href="#">Virtual Tour</a>
+                    <a href="overview.php">Overview</a>
+                    <a href="infrastructure.php">Infrastructure</a>
+                    <a href="facilities.php">Facilities</a>
+                    <a href="photo_gallery.php">Photo Gallery</a>
+                    <a href="virtual_video_tour.php">Virtual Tour</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">OUR CURRICULUM
-                    <i class="fa fa-caret-down"></i>
+                ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Curriculum And Assessment</a>
-                    <a href="#">Academic Practice</a>
-                    <a href="#">Academic Calendar</a>
+                    <a href="curriculam-and-assessment.php">Curriculum And Assessment</a>
+                    <a href="bestacadimicpractices.php">Academic Practice</a>
+                    <a href="academic-calendar.php">Academic Calendar</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">FOR PARENTS
-                    <i class="fa fa-caret-down"></i>
+                ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Students Activities</a>
-                    <a href="#">Guidelines And Policies</a>
-                    <a href="#">Health Guideline And Policy</a>
-                    <a href="#">Feedback</a>
-                    <a href="#">Circulars</a>
+                    <a href="student-activities.php">Students Activities</a>
+                    <a href="guidelines-and-policies.php">Guidelines And Policies</a>
+                    <a href="health-and-medicine.php">Health Guideline And Policy</a>
+                    <a href="feedback.php">Feedback</a>
+                    <a href="curriculam-and-assessment.php">Circulars</a>
 
                 </div>
             </div>
 
             <div class="dropdown">
                 <button class="dropbtn">FOR STUDENT
-                    <i class="fa fa-caret-down"></i>
+                ▼
                 </button>
                 <div class="dropdown-content">
                     <a href="#">Student Council</a>
-                    <a href="#">Responsibilities And Rights</a>
-                    <a href="#">Rules And Policies</a>
+                    <a href="student-responsibility-and-rights.php">Responsibilities And Rights</a>
+                    <a href="student_rules_and_policies.php">Rules And Policies</a>
                     <a href="#">Disipline Incharges</a>
                     <a href="#">TC Issued</a>
 
@@ -132,7 +131,7 @@
             </div>
             <a class="dropbtn_anchor" href="#">BLOG</a>
 
-            <a class="dropbtn_anchor" href="#">CONTACT</a>
+            <a class="dropbtn_anchor" href="contact.php">CONTACT</a>
 
 
 
@@ -341,7 +340,7 @@
                     <div class="curr_card_image-container">
                         <img src="9thto12th.jpg" alt="Image" class="hover-image">
                       </div>
-                    <!-- <img src="1to5.jpg" alt="QR Code Image"> -->
+                   
                     <p class="curr_heading">I to VIII </p>
                     <p class="curr_p1"> Primary/Junior Section</p>
                     <p class="curr_p2">Our curriculum consists of application based learning methods, all basic concepts
@@ -349,14 +348,7 @@
                         like Computer Sciences are catered to, with a basic concept of learning.</p>
                 </div>
 
-                <!-- <div class="curr_card">
-                    <img src="9thto12th.jpg" alt="QR Code Image">
-                    <p class="curr_heading">IX to XII </p>
-                    <p class="curr_p1">Sr. Secondary Section</p>
-                    <p class="curr_p2">Our hands-on learning approach allow each child to have a clear conceptual
-                        understanding of logic behind every formula, every practical or every application learned is
-                        well engraved in the minds of these little geniuses</p>
-                </div> -->
+               
 
             </div>
         </div>
@@ -449,7 +441,7 @@
                     </div>
                     <a class="degisination_name" href="#">MR. KRISHNA KALARA</a>
                     <p class="degisination">Chairman</p>
-                    <p class="degisination_detail">Often in our intense desire to secure the future of our children, we set unrealistic expectations, impinging on the child's.... <a class="managemant_readmore" href="readmore.html">Read More</a></p>
+                    <p class="degisination_detail">Often in our intense desire to secure the future of our children, we set unrealistic expectations, impinging on the child's.... <a class="managemant_readmore" href="readmore.php">Read More</a></p>
                 </div>
                 <div class="management_card">
                     <div class="image-container">
@@ -457,7 +449,7 @@
                     </div>
                     <a class="degisination_name"  href="#">MR. SANJAY KALARA</a>
                     <p class="degisination">Managing Director</p>
-                    <p class="degisination_detail">Often in our intense desire to secure the future of our children, we set unrealistic expectations, impinging on the child's....<a class="managemant_readmore" href="readmore.html">Read More</a></p>
+                    <p class="degisination_detail">Often in our intense desire to secure the future of our children, we set unrealistic expectations, impinging on the child's....<a class="managemant_readmore" href="readmore.php">Read More</a></p>
                 </div>
                 <div class="management_card">
                     <div class="image-container">
@@ -465,7 +457,7 @@
                     </div>
                     <a class="degisination_name" href="#">MRS. SUMITRA KALARA</a>
                     <p class="degisination">Principal</p>
-                    <p class="degisination_detail">Often in our intense desire to secure the future of our children, we set unrealistic expectations, impinging on the child's....<a class="managemant_readmore" href="readmore.html">Read More</a></p>
+                    <p class="degisination_detail">Often in our intense desire to secure the future of our children, we set unrealistic expectations, impinging on the child's....<a class="managemant_readmore" href="readmore.php">Read More</a></p>
                 </div>
                
                 <!-- Repeat for other management cards -->
@@ -482,18 +474,17 @@
                     <div class="counter-display" id="counter1">0</div>
                 </div>
                 <div class="counter-name">Sports <br> Facility
-                    <!-- <p class="counter-sign">+</p> -->
                     <div class="counter-display" id="counter2">0</div>
                 </div>
                 <div class="counter-name">Experienced <br> Teachers
-                    <!-- <p class="counter-sign">+</p> -->
+                    
                     <div class="counter-display" id="counter3">0</div>
                 </div>
                 <div class="counter-name">Academic <br> Result
 
                     <div class="counter-display" id="counter4">0</div>
                 </div>
-                <!-- <p style="color:red">hello</p> -->
+               
                 <p class="counter-signper">%</p>
 
                 <div class="counter-name">Satisfied <br> Parents

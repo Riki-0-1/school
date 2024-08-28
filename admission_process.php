@@ -52,32 +52,32 @@
                 <!-- <i class="fa-brands fa-whatsapp"></i> -->
         </div>
         <div class="nav3">
-            <a href="index.html">HOME</a>
-
+            <a href="index.php">HOME</a>
+        
             <div class="dropdown">
                 <button class="dropbtn">OUR SCHOOL
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="about.html">About School</a>
-                    <a href="statement&philosphy.html">Statement & Philosophy</a>
-                    <a href="leadershipteam.html">Our Leadership Team</a>
+                    <a href="about.php">About School</a>
+                    <a href="statement&philosphy.php">Statement & Philosophy</a>
+                    <a href="leadershipteam.php">Our Leadership Team</a>
                     <a href="#">The Advisory Board</a>
-                    <a href="#">CBSE Guideline And Philosophy </a>
-                    <a href="#">Sports Academy</a>
-                    <a href="#">Mandatory Disclosures</a>
+                    <a href="cbse_guidelines_philoshpy.php">CBSE Guideline And Philosophy </a>
+                    <a href="sports_academy.php">Sports Academy</a>
+                    <a href="mandatory_disclosure.php">Mandatory Disclosures</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">ADMISSION
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Admission Process</a>
+                    <a href="admission_process.php">Admission Process</a>
                     <a href="#">Online Registration</a>
                     <a href="#">Payments</a>
-                    <a href="#">School Transport</a>
-                    <a href="#">Entrance Test Syllabus
+                    <a href="schooltransport.php">School Transport</a>
+                    <a href="entrancetestsyllabus.php">Entrance Test Syllabus
                         2024-2025
                     </a>
                 </div>
@@ -85,56 +85,61 @@
 
             <div class="dropdown">
                 <button class="dropbtn">OUR CAMPUS
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Overview</a>
-                    <a href="#">Infrastructure</a>
-                    <a href="#">Facilities</a>
-                    <a href="#">Photo Gallery</a>
-                    <a href="#">Virtual Tour</a>
+                    <a href="overview.php">Overview</a>
+                    <a href="infrastructure.php">Infrastructure</a>
+                    <a href="facilities.php">Facilities</a>
+                    <a href="photo_gallery.php">Photo Gallery</a>
+                    <a href="virtual_video_tour.php">Virtual Tour</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">OUR CURRICULUM
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Curriculum And Assessment</a>
-                    <a href="#">Academic Practice</a>
-                    <a href="#">Academic Calendar</a>
+                    <a href="curriculam-and-assessment.php">Curriculum And Assessment</a>
+                    <a href="bestacadimicpractices.php">Academic Practice</a>
+                    <a href="academic-calendar.php">Academic Calendar</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">FOR PARENTS
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Students Activities</a>
-                    <a href="#">Guidelines And Policies</a>
-                    <a href="#">Health Guideline And Policy</a>
-                    <a href="#">Feedback</a>
-                    <a href="#">Circulars</a>
+                    <a href="student-activities.php">Students Activities</a>
+                    <a href="guidelines-and-policies.php">Guidelines And Policies</a>
+                    <a href="health-and-medicine.php">Health Guideline And Policy</a>
+                    <a href="feedback.php">Feedback</a>
+                    <a href="curriculam-and-assessment.php">Circulars</a>
 
                 </div>
             </div>
 
             <div class="dropdown">
                 <button class="dropbtn">FOR STUDENT
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
                     <a href="#">Student Council</a>
-                    <a href="#">Responsibilities And Rights</a>
-                    <a href="#">Rules And Policies</a>
+                    <a href="student-responsibility-and-rights.php">Responsibilities And Rights</a>
+                    <a href="student_rules_and_policies.php">Rules And Policies</a>
                     <a href="#">Disipline Incharges</a>
                     <a href="#">TC Issued</a>
 
                 </div>
             </div>
             <a class="dropbtn_anchor" href="#">BLOG</a>
-            <a class="dropbtn_anchor" href="#">CONTACT</a>
+
+            <a class="dropbtn_anchor" href="contact.php">CONTACT</a>
+
+
+
         </div>
+
     </header>
     <main>
         <div class="aboutus">
@@ -152,7 +157,7 @@
                     <ul>
                         <li><img class="admission_image" src="arrow.jpeg" alt="" >The cost of prospectus and application form is Rs700/-</li>
                         <li><img class="admission_image" src="arrow.jpeg" alt="" > School will provide the specifications and list of uniforms, textbooks, notebooks and shoes which can be purchased from any shop in the city.</li>
-                        <li><img class="admission_image" src="arrow.jpeg" alt="" ><a href="schooltransport.html">Transport facility</a>  is optional and will be charged based on location of pick-up.</li>
+                        <li><img class="admission_image" src="arrow.jpeg" alt="" ><a href="schooltransport.php">Transport facility</a>  is optional and will be charged based on location of pick-up.</li>
                         <li><img class="admission_image" src="arrow.jpeg" alt="" >No component of the fee is refundable, in part or full, under any circumstances unless otherwise specifically mentioned.</li>
                         <li><img class="admission_image" src="arrow.jpeg" alt="" >Family concession where two or more students of same parents are enrolled, will be provided only for the younger sibling. The rebate permissible is 10% on Composite fees.</li>
                         <li><img class="admission_image" src="arrow.jpeg" alt="" >This rebate cannot be combined with any other scholarship / rebate/ waiver of fees</li>

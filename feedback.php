@@ -48,10 +48,10 @@
         </div>
         <div class="nav3">
             <a href="index.html">HOME</a>
-
+        
             <div class="dropdown">
                 <button class="dropbtn">OUR SCHOOL
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
                     <a href="about.html">About School</a>
@@ -60,19 +60,19 @@
                     <a href="#">The Advisory Board</a>
                     <a href="cbse_guidelines_philoshpy.html">CBSE Guideline And Philosophy </a>
                     <a href="sports_academy.html">Sports Academy</a>
-                    <a href="#">Mandatory Disclosures</a>
+                    <a href="mandatory_disclosure.html">Mandatory Disclosures</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">ADMISSION
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Admission Process</a>
+                    <a href="admission_process.html">Admission Process</a>
                     <a href="#">Online Registration</a>
                     <a href="#">Payments</a>
                     <a href="schooltransport.html">School Transport</a>
-                    <a href="#">Entrance Test Syllabus
+                    <a href="entrancetestsyllabus.html">Entrance Test Syllabus
                         2024-2025
                     </a>
                 </div>
@@ -80,56 +80,61 @@
 
             <div class="dropdown">
                 <button class="dropbtn">OUR CAMPUS
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Overview</a>
-                    <a href="#">Infrastructure</a>
-                    <a href="#">Facilities</a>
-                    <a href="#">Photo Gallery</a>
-                    <a href="#">Virtual Tour</a>
+                    <a href="overview.html">Overview</a>
+                    <a href="infrastructure.html">Infrastructure</a>
+                    <a href="facilities.html">Facilities</a>
+                    <a href="photo_gallery.html">Photo Gallery</a>
+                    <a href="virtual_video_tour.html">Virtual Tour</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">OUR CURRICULUM
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Curriculum And Assessment</a>
-                    <a href="#">Academic Practice</a>
-                    <a href="#">Academic Calendar</a>
+                    <a href="curriculam-and-assessment.html">Curriculum And Assessment</a>
+                    <a href="bestacadimicpractices.html">Academic Practice</a>
+                    <a href="academic-calendar.html">Academic Calendar</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">FOR PARENTS
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Students Activities</a>
-                    <a href="#">Guidelines And Policies</a>
-                    <a href="#">Health Guideline And Policy</a>
-                    <a href="#">Feedback</a>
-                    <a href="#">Circulars</a>
+                    <a href="student-activities.html">Students Activities</a>
+                    <a href="guidelines-and-policies.html">Guidelines And Policies</a>
+                    <a href="health-and-medicine.html">Health Guideline And Policy</a>
+                    <a href="feedback.html">Feedback</a>
+                    <a href="curriculam-and-assessment.html">Circulars</a>
 
                 </div>
             </div>
 
             <div class="dropdown">
                 <button class="dropbtn">FOR STUDENT
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
                     <a href="#">Student Council</a>
-                    <a href="#">Responsibilities And Rights</a>
-                    <a href="#">Rules And Policies</a>
+                    <a href="student-responsibility-and-rights.html">Responsibilities And Rights</a>
+                    <a href="student_rules_and_policies.html">Rules And Policies</a>
                     <a href="#">Disipline Incharges</a>
                     <a href="#">TC Issued</a>
 
                 </div>
             </div>
             <a class="dropbtn_anchor" href="#">BLOG</a>
-            <a class="dropbtn_anchor" href="#">CONTACT</a>
+
+            <a class="dropbtn_anchor" href="contact.html">CONTACT</a>
+
+
+
         </div>
+
     </header>
     <main>
 
@@ -142,25 +147,41 @@
 
 
 
+    
+
         <div class="cbse_guideline">
             <p>
-                VIDEO GALLERY
+                FEEDBACK
             </p>
         </div>
 
-    
        
 
-        <div class="video_tour">
-            <div class="firstvideo">
-                <iframe width="800" height="500" src="https://www.youtube.com/embed/fDp2TYsjC68?si=uYDLiXXlq9ZocLDZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-            <div class="secondvideo">
-                <iframe width="800" height="500" src="https://www.youtube.com/embed/fDp2TYsjC68?si=uYDLiXXlq9ZocLDZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
+        <div class="feedbackparentmain">
 
-            
+            <form action="https://formspree.io/f/xkndegdj" method="POST">
+                <input type="text" class="feedback_form_input" id="yourname" name="yourname" placeholder="Your Name*" required> <br><br><br>
+                <input type="email" class="feedback_form_input" name="email" id="email" placeholder="Email*" required><br><br><br><br>
+                <input type="tel" class="feedback_form_input" name="mobile" id="mobile" placeholder="Mobile Number*" required><br><br><br><br>
+                <input type="text" class="feedback_form_input" name="studentname" id="studentname" placeholder="Student Name*" required> <br><br><br><br>
+                <input type="text" class="feedback_form_input" name="studentclass" id="studentclass" placeholder="Student Class*" required> <br><br><br><br>
+                <div class="formsectiondiv">
+                <label id="section_label" for="section">Choose Section</label>
+                <select id="section" name="section">
+                    <option value="sectionA">A</option>
+                    <option value="sectionB">B</option>
+                    <option value="sectionC">C</option>
+                    <option value="sectionD">D</option>
+                  </select> <br>
+                </div> <br><br><br>
+                  <!-- <textarea name="message" rows="10" cols="30"></textarea> -->
+                   <textarea name="schoolwell" class="feedback_form_textarea" id="schoolwell" placeholder="What do you think the School does well ?"></textarea><br><br><br><br>
+                   <textarea name="schoolimprove" class="feedback_form_textarea" id="schoolimprove" placeholder="What do you think the School could improve ?"></textarea><br><br><br><br>
+                   <textarea name="providecomments" class="feedback_form_textarea" id="providecomments" placeholder="Please provide us with any comments you have on the feedback and marking of your child's work. Please include the name of the subject area(s) in any feedback ?"></textarea> <br><br><br><br>
+                   <textarea name="othercomments" class="feedback_form_textarea" id="othercomments" placeholder="Do you have any other comments ?"></textarea> <br><br><br><br>
+                  <input type="submit" value="Submit" id="feedback_submit">
 
+            </form>
         </div>
 
 
@@ -177,7 +198,7 @@
 
 
 
-   
+    
 </main>
     <footer id="footers">
         <div class="left_footer">

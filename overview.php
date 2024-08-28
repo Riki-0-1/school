@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +9,6 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
     <header id="header">
         <div class="nav1">
@@ -47,32 +45,32 @@
                 <!-- <i class="fa-brands fa-whatsapp"></i> -->
         </div>
         <div class="nav3">
-            <a href="index.html">HOME</a>
-
+            <a href="index.php">HOME</a>
+        
             <div class="dropdown">
                 <button class="dropbtn">OUR SCHOOL
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="about.html">About School</a>
-                    <a href="statement&philosphy.html">Statement & Philosophy</a>
-                    <a href="leadershipteam.html">Our Leadership Team</a>
+                    <a href="about.php">About School</a>
+                    <a href="statement&philosphy.php">Statement & Philosophy</a>
+                    <a href="leadershipteam.php">Our Leadership Team</a>
                     <a href="#">The Advisory Board</a>
-                    <a href="cbse_guidelines_philoshpy.html">CBSE Guideline And Philosophy </a>
-                    <a href="sports_academy.html">Sports Academy</a>
-                    <a href="#">Mandatory Disclosures</a>
+                    <a href="cbse_guidelines_philoshpy.php">CBSE Guideline And Philosophy </a>
+                    <a href="sports_academy.php">Sports Academy</a>
+                    <a href="mandatory_disclosure.php">Mandatory Disclosures</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">ADMISSION
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Admission Process</a>
+                    <a href="admission_process.php">Admission Process</a>
                     <a href="#">Online Registration</a>
                     <a href="#">Payments</a>
-                    <a href="schooltransport.html">School Transport</a>
-                    <a href="#">Entrance Test Syllabus
+                    <a href="schooltransport.php">School Transport</a>
+                    <a href="entrancetestsyllabus.php">Entrance Test Syllabus
                         2024-2025
                     </a>
                 </div>
@@ -80,58 +78,62 @@
 
             <div class="dropdown">
                 <button class="dropbtn">OUR CAMPUS
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Overview</a>
-                    <a href="#">Infrastructure</a>
-                    <a href="#">Facilities</a>
-                    <a href="#">Photo Gallery</a>
-                    <a href="#">Virtual Tour</a>
+                    <a href="overview.php">Overview</a>
+                    <a href="infrastructure.php">Infrastructure</a>
+                    <a href="facilities.php">Facilities</a>
+                    <a href="photo_gallery.php">Photo Gallery</a>
+                    <a href="virtual_video_tour.php">Virtual Tour</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">OUR CURRICULUM
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Curriculum And Assessment</a>
-                    <a href="#">Academic Practice</a>
-                    <a href="#">Academic Calendar</a>
+                    <a href="curriculam-and-assessment.php">Curriculum And Assessment</a>
+                    <a href="bestacadimicpractices.php">Academic Practice</a>
+                    <a href="academic-calendar.php">Academic Calendar</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">FOR PARENTS
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Students Activities</a>
-                    <a href="#">Guidelines And Policies</a>
-                    <a href="#">Health Guideline And Policy</a>
-                    <a href="#">Feedback</a>
-                    <a href="#">Circulars</a>
+                    <a href="student-activities.php">Students Activities</a>
+                    <a href="guidelines-and-policies.php">Guidelines And Policies</a>
+                    <a href="health-and-medicine.php">Health Guideline And Policy</a>
+                    <a href="feedback.php">Feedback</a>
+                    <a href="curriculam-and-assessment.php">Circulars</a>
 
                 </div>
             </div>
 
             <div class="dropdown">
                 <button class="dropbtn">FOR STUDENT
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
                     <a href="#">Student Council</a>
-                    <a href="#">Responsibilities And Rights</a>
-                    <a href="#">Rules And Policies</a>
+                    <a href="student-responsibility-and-rights.php">Responsibilities And Rights</a>
+                    <a href="student_rules_and_policies.php">Rules And Policies</a>
                     <a href="#">Disipline Incharges</a>
                     <a href="#">TC Issued</a>
 
                 </div>
             </div>
             <a class="dropbtn_anchor" href="#">BLOG</a>
-            <a class="dropbtn_anchor" href="#">CONTACT</a>
+
+            <a class="dropbtn_anchor" href="contact.php">CONTACT</a>
+
+
+
         </div>
+
     </header>
-    <main>
 
 
 
@@ -140,75 +142,21 @@
 
 
 
+    
+    <div class="cbse_guideline transport" >
+        <p>
+            OVERVIEW
+        </p>
+    </div>
+    <div class="overviewdiv">
+        <img src="overview.jpg" alt="overview image">
+    </div>
+    <div class="overviewpara">
+        <p> <a href="index.php">The International School Agra</a> strives to provide students the skills they will require to be successful and happy in the demanding world of the twenty-first century. Let our children grow as world class citizens, a generation of eminent thinkers and wise planners contributing to a better world.”
+            The sprawling, verdant <a href="ourmission.php">TISA</a> Campus is spread over acres and provides the latest learning environment and sports facilities to create a friendly and family atmosphere to enable students to excel in extra-curricular activities along with academic excellence. The school has the latest equipment, instruments, and teaching aids for all scholastic and co-scholastic activities such as creative arts, music, dance, drama, physical education and sports.</p>
+    </div>
 
-
-
-
-        <div class="cbse_guideline">
-            <p>
-                GUIDELINES AND POLICIES
-            </p>
-        </div>
-
-
-
-        <div class="guidelines-and-policies-main-div">
-            
-            <div class="guidelines-and-policies_list_div">
-                <ul>
-                    <li>Parents are requested not to enter the classrooms to see their children or teachers during class
-                        hours without prior permission of the principal.</li> <br>
-                    <li>Parents are requested to spend quality time with their children for better progress in their
-                        studies.</li><br>
-                    <li>Parents are requested to inform immediately to the school if there is any change in their
-                        address and telephone numbers.</li><br>
-                    <li>Leave for half day should not be asked for security reasons. In emergency however written
-                        permission must be taken from the principal, the class teacher and the bus-in-charge must be
-                        duly informed..</li><br>
-                    <li>Parents attention is drawn to the fact that criticism of the teacher or school in the presence
-                        of their child should be scrupulously avoided because it causes the children to loose respect
-                        for their teachers with the consequent failure to learn from them and retarding to their
-                        progress.</li><br>
-                    <li>If there is any legitimate complaint you are requested to meet the Principal at the earliest or
-                        write to him in confidence so that the complaint will be personally verified by the Principal.
-                    </li><br>
-                    <li>Any communication made by parents/guardian should be addressed to the principal through the
-                        class teacher and all correspondence to the school to the parents will made by the principal.
-                    </li><br>
-                    <li>Parents should sign the progress report and return to the class teacher.</li><br>
-                    <li>The name, class, section and house of the pupil should be clearly marked on all the belongings
-                        of the student example blazers, ties, jerseys, shocks, shoes etc.</li><br>
-                    <li> Parents are required to corporate with school in its attempt to help their child in progress
-                        and discipline and take interest in their child’s studies and other instruction given. There are
-                        advised to check the bag of their ward to see if any circular/ notice/invitation etc. has been
-                        issued or not.</li><br>
-                    <li>Care must be taken of all school properties and any damage has done, it will be compensated by
-                        the concerned student, with the fine imposed.</li><br>
-                    <li>The ward of those parent who avoid, meeting authorities when advised to do so, may not be
-                        allowed to attend the classes.</li><br>
-                    <li> Parents of children (nursery to grade 5th) are requested to personally see off and receive
-                        their ward at bus stop.</li><br>
-                    <li>Parents must concern the school calendar, date sheets and other circulars before making
-                        enquiries over phone.</li><br>
-                    <li>Even the students are admitted later during the term, fees for the whole academic session will
-                        be charged.</li><br>
-                    <li>Parents are requested to deposit the fees in time. Parents must keep fee receipt with them and
-                        should produce when required.</li><br>
-                    <li>Parents and guardians are requested to read and explain the school rules to their ward.</li><br>
-                    <li>Parents are requested to be very sure that their ward is not watching television for a longer
-                        time. They should be aware about the places where there child goes. Parents should monitor the
-                        child when he is surfing on internet.</li><br>
-                    <li>Parents should take care that child goes to school on time and is appropriately dressed.</li>
-                    <br>
-                    <li>Parents should corporate and take interest in the work of the child and encourage him/her to
-                        achieve high personal standards.</li><br>
-                    <li>Parents should not allow their ward to take any kind of electronic gadgets.</li><br>
-                </ul>
-            </div>
-            <div class="guidelines-and-policies_img_div">
-                <img src="guidelines-and policies.jpg" alt="">
-            </div>
-        </div>
+    
 
 
 
@@ -225,7 +173,21 @@
 
 
 
-    </main>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     <footer id="footers">
         <div class="left_footer">
             <p id="left_footer_para_main_1" class="left_footer_para_main">CONTACT US:</p>
@@ -270,5 +232,5 @@
         </div>
     </footer>
 </body>
-
-</html>
+</html>  
+  

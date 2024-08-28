@@ -47,32 +47,32 @@
                 <!-- <i class="fa-brands fa-whatsapp"></i> -->
         </div>
         <div class="nav3">
-            <a href="index.html">HOME</a>
-
+            <a href="index.php">HOME</a>
+        
             <div class="dropdown">
                 <button class="dropbtn">OUR SCHOOL
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="about.html">About School</a>
-                    <a href="statement&philosphy.html">Statement & Philosophy</a>
-                    <a href="leadershipteam.html">Our Leadership Team</a>
+                    <a href="about.php">About School</a>
+                    <a href="statement&philosphy.php">Statement & Philosophy</a>
+                    <a href="leadershipteam.php">Our Leadership Team</a>
                     <a href="#">The Advisory Board</a>
-                    <a href="cbse_guidelines_philoshpy.html">CBSE Guideline And Philosophy </a>
-                    <a href="sports_academy.html">Sports Academy</a>
-                    <a href="#">Mandatory Disclosures</a>
+                    <a href="cbse_guidelines_philoshpy.php">CBSE Guideline And Philosophy </a>
+                    <a href="sports_academy.php">Sports Academy</a>
+                    <a href="mandatory_disclosure.php">Mandatory Disclosures</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">ADMISSION
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Admission Process</a>
+                    <a href="admission_process.php">Admission Process</a>
                     <a href="#">Online Registration</a>
-                    <a href="#">Payments</a>
-                    <a href="schooltransport.html">School Transport</a>
-                    <a href="#">Entrance Test Syllabus
+                    <a href="payments.php">Payments</a>
+                    <a href="schooltransport.php">School Transport</a>
+                    <a href="entrancetestsyllabus.php">Entrance Test Syllabus
                         2024-2025
                     </a>
                 </div>
@@ -80,56 +80,61 @@
 
             <div class="dropdown">
                 <button class="dropbtn">OUR CAMPUS
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Overview</a>
-                    <a href="#">Infrastructure</a>
-                    <a href="#">Facilities</a>
-                    <a href="#">Photo Gallery</a>
-                    <a href="#">Virtual Tour</a>
+                    <a href="overview.php">Overview</a>
+                    <a href="infrastructure.php">Infrastructure</a>
+                    <a href="facilities.php">Facilities</a>
+                    <a href="photo_gallery.php">Photo Gallery</a>
+                    <a href="virtual_video_tour.php">Virtual Tour</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">OUR CURRICULUM
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Curriculum And Assessment</a>
-                    <a href="#">Academic Practice</a>
-                    <a href="#">Academic Calendar</a>
+                    <a href="curriculam-and-assessment.php">Curriculum And Assessment</a>
+                    <a href="bestacadimicpractices.php">Academic Practice</a>
+                    <a href="academic-calendar.php">Academic Calendar</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">FOR PARENTS
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Students Activities</a>
-                    <a href="#">Guidelines And Policies</a>
-                    <a href="#">Health Guideline And Policy</a>
-                    <a href="#">Feedback</a>
-                    <a href="#">Circulars</a>
+                    <a href="student-activities.php">Students Activities</a>
+                    <a href="guidelines-and-policies.php">Guidelines And Policies</a>
+                    <a href="health-and-medicine.php">Health Guideline And Policy</a>
+                    <a href="feedback.php">Feedback</a>
+                    <a href="curriculam-and-assessment.php">Circulars</a>
 
                 </div>
             </div>
 
             <div class="dropdown">
                 <button class="dropbtn">FOR STUDENT
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
                     <a href="#">Student Council</a>
-                    <a href="#">Responsibilities And Rights</a>
-                    <a href="#">Rules And Policies</a>
-                    <a href="#">Discipline In charges</a>
+                    <a href="student-responsibility-and-rights.php">Responsibilities And Rights</a>
+                    <a href="student_rules_and_policies.php">Rules And Policies</a>
+                    <a href="#">Disipline Incharges</a>
                     <a href="#">TC Issued</a>
 
                 </div>
             </div>
             <a class="dropbtn_anchor" href="#">BLOG</a>
-            <a class="dropbtn_anchor" href="#">CONTACT</a>
+
+            <a class="dropbtn_anchor" href="contact.php">CONTACT</a>
+
+
+
         </div>
+
     </header>
     <main>
 
@@ -142,27 +147,26 @@
 
 
 
-
-
         <div class="cbse_guideline">
             <p>
-                HEALTH / MEDICINE
+                VIDEO GALLERY
             </p>
         </div>
 
+    
+       
 
-    <div class="health-and-medicine-main">
-        <div class="health-and-medicine-para">
-            <p>If your child is ill, do not send him/her to school. This is for your child's safety as well as the safety of the rest of the children and staff. Your child must be fever-free for 24 hours before returning to school. If your child is on antibiotics, he/she may return after being on medication for a full 24 hours. <br> <br>
+        <div class="video_tour">
+            <div class="firstvideo">
+                <iframe width="800" height="500" src="https://www.youtube.com/embed/fDp2TYsjC68?si=uYDLiXXlq9ZocLDZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <div class="secondvideo">
+                <iframe width="800" height="500" src="https://www.youtube.com/embed/fDp2TYsjC68?si=uYDLiXXlq9ZocLDZ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
 
-                If your child is suffering from any communicable disease, such as cold/cough or chicken pox, inform the Class Teacher / Principal immediately. When the child is not well and comfortable he/she should be instructed to stay at home. Children, who become ill, will be sent home. Parents will be called to pick up the child. <br><br>
-                
-                Any child absent from the campus with a contagious disease will not be allowed in class without a signed statement from a physician indicating that the child is no longer suffering with contagious disease.</p>
+            
+
         </div>
-        <div class="health-and-medicine-img">
-            <img src="health-and -medicine.png" alt="">
-        </div>
-    </div>
 
 
 
@@ -178,11 +182,8 @@
 
 
 
-
-
-
-
-    </main>
+   
+</main>
     <footer id="footers">
         <div class="left_footer">
             <p id="left_footer_para_main_1" class="left_footer_para_main">CONTACT US:</p>

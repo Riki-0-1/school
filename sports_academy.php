@@ -45,32 +45,32 @@
                 <!-- <i class="fa-brands fa-whatsapp"></i> -->
         </div>
         <div class="nav3">
-            <a href="index.html">HOME</a>
-
+            <a href="index.php">HOME</a>
+        
             <div class="dropdown">
                 <button class="dropbtn">OUR SCHOOL
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="about.html">About School</a>
-                    <a href="statement&philosphy.html">Statement & Philosophy</a>
-                    <a href="leadershipteam.html">Our Leadership Team</a>
+                    <a href="about.php">About School</a>
+                    <a href="statement&philosphy.php">Statement & Philosophy</a>
+                    <a href="leadershipteam.php">Our Leadership Team</a>
                     <a href="#">The Advisory Board</a>
-                    <a href="cbse_guidelines_philoshpy.html">CBSE Guideline And Philosophy </a>
-                    <a href="sports_academy.html">Sports Academy</a>
-                    <a href="#">Mandatory Disclosures</a>
+                    <a href="cbse_guidelines_philoshpy.php">CBSE Guideline And Philosophy </a>
+                    <a href="sports_academy.php">Sports Academy</a>
+                    <a href="mandatory_disclosure.php">Mandatory Disclosures</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">ADMISSION
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="admission_process.html">Admission Process</a>
+                    <a href="admission_process.php">Admission Process</a>
                     <a href="#">Online Registration</a>
-                    <a href="payments.html">Payments</a>
-                    <a href="schooltransport.html">School Transport</a>
-                    <a href="entrancetestsyllabus.html">Entrance Test Syllabus
+                    <a href="payments.php">Payments</a>
+                    <a href="schooltransport.php">School Transport</a>
+                    <a href="entrancetestsyllabus.php">Entrance Test Syllabus
                         2024-2025
                     </a>
                 </div>
@@ -78,114 +78,89 @@
 
             <div class="dropdown">
                 <button class="dropbtn">OUR CAMPUS
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Overview</a>
-                    <a href="#">Infrastructure</a>
-                    <a href="#">Facilities</a>
-                    <a href="#">Photo Gallery</a>
-                    <a href="#">Virtual Tour</a>
+                    <a href="overview.php">Overview</a>
+                    <a href="infrastructure.php">Infrastructure</a>
+                    <a href="facilities.php">Facilities</a>
+                    <a href="photo_gallery.php">Photo Gallery</a>
+                    <a href="virtual_video_tour.php">Virtual Tour</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">OUR CURRICULUM
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Curriculum And Assessment</a>
-                    <a href="#">Academic Practice</a>
-                    <a href="#">Academic Calendar</a>
+                    <a href="curriculam-and-assessment.php">Curriculum And Assessment</a>
+                    <a href="bestacadimicpractices.php">Academic Practice</a>
+                    <a href="academic-calendar.php">Academic Calendar</a>
                 </div>
             </div>
             <div class="dropdown">
                 <button class="dropbtn">FOR PARENTS
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
-                    <a href="#">Students Activities</a>
-                    <a href="#">Guidelines And Policies</a>
-                    <a href="#">Health Guideline And Policy</a>
-                    <a href="#">Feedback</a>
-                    <a href="#">Circulars</a>
+                    <a href="student-activities.php">Students Activities</a>
+                    <a href="guidelines-and-policies.php">Guidelines And Policies</a>
+                    <a href="health-and-medicine.php">Health Guideline And Policy</a>
+                    <a href="feedback.php">Feedback</a>
+                    <a href="curriculam-and-assessment.php">Circulars</a>
 
                 </div>
             </div>
 
             <div class="dropdown">
                 <button class="dropbtn">FOR STUDENT
-                    <i class="fa fa-caret-down"></i>
+                    ▼
                 </button>
                 <div class="dropdown-content">
                     <a href="#">Student Council</a>
-                    <a href="#">Responsibilities And Rights</a>
-                    <a href="#">Rules And Policies</a>
+                    <a href="student-responsibility-and-rights.php">Responsibilities And Rights</a>
+                    <a href="student_rules_and_policies.php">Rules And Policies</a>
                     <a href="#">Disipline Incharges</a>
                     <a href="#">TC Issued</a>
 
                 </div>
             </div>
             <a class="dropbtn_anchor" href="#">BLOG</a>
-            <a class="dropbtn_anchor" href="#">CONTACT</a>
+
+            <a class="dropbtn_anchor" href="contact.php">CONTACT</a>
+
+
+
         </div>
+
     </header>
 
-
-
-
-    <div class="cbse_guideline transport" >
+    <div class="cbse_guideline">
         <p>
-            FEE AND PAYMENTS
+            TISA SPORTS ACADEMY
         </p>
     </div>
-    <div class="onlinepayments">
-        <a href="#">ONLINE FEE PAYMENTS</a>
+    <div class="cbse_guideline_lists">
+       <p>
+        The International School Agra prides in having a fully-functional sports academy in Agra. We truly understand that sports in education plays a very important role in nurturing students in all spheressphres. It was our prime motive to carefully design our curriculum and integrate sports education with academic education. This helped us in creating a comprehensive learning environment that fosters the overall growth and development of our students. <br><br>
+
+
+
+As a leading sports academy, our commitment to overall learning and physical education goes beyond physical activities. It also serves as a powerful tool for imparting essential life skills, character development, teamwork, discipline, and resilience in our students. We strongly believe that active participation in sports not only enhances physical fitness but also cultivates mental agility, emotional intelligence, and social skills. <br><br>
+
+
+
+The International School Agra prides in itself to have some of the best team of experienced coaches and instructors for sports. Our school promotes many sports such as football, basket ball, cricket, athletics and more. We conduct several training sessions, inter-school competitons, for our students so that they gain valuable experience and opportunities to showcase their skills and talent. <br><br>
+
+
+
+There are immense benefits of sports education. It leads to a healthier and better lifestyle and well-being. Furthermore, when students engage in sports, they develop better skills and values such as perseverance, teamwork, and sportsmanship. It is very much evident that physical activity helps in developing cognitive abilities, concentration and memory retention. Students also learn to embrace failures and handle success which in turn develops self-confidence in them. In the long-run such valuable skills adds up to a quality living and lifestyle. <br><br>
+
+
+
+As a renowned sports school and sports academy, we have one of the best sports facilities and infrastructure for our school. We encourage and provide students with all the possible resources they need to excel in the sport of their choice. <br><br>
+       </p>
     </div>
-    <div class="onlinepaymentsgrid">
-        <div class="onlinepayment">
-            <div class="onlinepaymentaddress">FOR AGRA</div>
-            <div class="onlinepaymentdetail">
-                <ul>
-                <li><strong>Bank Name:</strong>IDBI Bank</li>
-                <li><strong>Account no:</strong>123456789855</li>
-                <li><strong>Bank Address:</strong> Paliganj,Patna,Bihar,801110</li><br><br><br>
-                <li><strong style="text-decoration: underline;">Fee Collection Timings</strong></li>
-                <li><strong>Working Day:</strong>10 AM to 2PM <strong>Saturday:</strong>10 AM to 12 AM</li>
-                <li></li></ul>
-            </div>
-
-        </div>
-
-        <div class="onlinepayment">
-            <div class="onlinepaymentaddress">FOR FATEHABAD</div>
-            <div class="onlinepaymentdetail">
-                <ul>
-                <li><strong>Bank Name:</strong>IDBI Bank</li>
-                <li><strong>Account no:</strong>123456789855</li>
-                <li><strong>Bank Address:</strong> Paliganj,Patna,Bihar,801110</li> <br><br><br>
-                <li><strong style="text-decoration: underline;">Fee Collection Timings</strong></li>
-                <li><strong>Working Day:</strong>10 AM to 2PM <strong>Saturday:</strong>10 AM to 12 AM</li>
-                <li></li></ul>
-            </div>
-
-        </div>
-
-        <div class="onlinepayment">
-            <div class="onlinepaymentaddress">SCHOOL CAMPUS</div>
-            <div class="onlinepaymentdetail">
-                <ul>
-                <li><strong>Bank Name:</strong>IDBI Bank</li>
-                <li><strong>Account no:</strong>123456789855</li>
-                <li><strong>Bank Address:</strong> Paliganj,Patna,Bihar,801110</li><br><br><br>
-                <li><strong style="text-decoration: underline;">Fee Collection Timings</strong></li>
-                <li><strong>Working Day:</strong>10 AM to 2PM <strong>Saturday:</strong>10 AM to 12 AM</li>
-                <li></li></ul>
-            </div>
-        </div>
-            
-    </div>
-
-
 
 
 
@@ -259,5 +234,4 @@
         </div>
     </footer>
 </body>
-</html>  
-  
+</html>

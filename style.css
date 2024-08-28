@@ -3,15 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* #header{
-  height: 100%; 
-  border: 5px solid red; 
-  position: relative; 
 
- } */
 .nav1 {
   height: 50px;
-  /* position: absolute; */
   display: flex;
   background-color: darkblue;
   width: 100%;
@@ -42,7 +36,7 @@
 }
 
 .nav1_3 {
-  left: 50%;
+  left: 42%;
   gap: 20px;
   display: flex;
   position: relative;
@@ -50,8 +44,7 @@
 }
 .nav1_3 ul li {
   list-style: none;
-  /* text-align: center;
-  line-height: 50px; */
+  
 }
 .blink {
   -webkit-animation: blink 0.75s linear infinite;
@@ -143,12 +136,9 @@
 }
 .nav2 img {
   margin-left: 15%;
-  /* margin-top: 4%; */
   height: 40%;
   width: 60%;
-  /* margin-bottom: 4%; */
-  /* border: 5px solid yellow; */
-  /* position: absolute; */
+  
 }
 
 .menu-icon {
@@ -166,7 +156,6 @@
   width: 13%;
   text-decoration: none;
   font-size: 18px;
-  /* font-weight: bold; */
   left: 80%;
   top: 13%;
   border-radius: 10px;
@@ -174,6 +163,7 @@
 }
 
 /* whatsapp logo  */
+
 .whatsapp a img {
   position: fixed;
   width: 90px;
@@ -200,15 +190,15 @@
   font-size: 20px;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 15px 15px;
   text-decoration: none;
-  margin-left: 2%;
+  /* margin-left: 0.4%; */
 }
 
 .dropdown {
   float: left;
   overflow: hidden;
-  margin-left: 2%;
+  /* margin-left: 2%; */
 }
 
 .dropdown .dropbtn {
@@ -286,13 +276,12 @@
   font-size: 50px;
 }
 #header2_online_reg {
-  /* position: absolute;   */
   background-color: darkblue;
   color: white;
   text-decoration: none;
   font-size: 30px;
-  margin-left: 20%;
-  margin-top: 5%;
+  margin-left: 16%;
+  margin-top: 4%;
   border-radius: 20px;
   width: 15%;
   height: 10%;
@@ -466,8 +455,7 @@
   grid-template-columns: repeat(5, 1fr);
   gap: 50px;
   width: 96%;
-  /* height: 20px; */
-  /* border: 2px solid red; */
+ 
   margin-left: 2%;
 }
 
@@ -479,7 +467,6 @@
   height: 400px;
   align-content: center;
   margin-bottom: 1%;
-  /* border: 2px solid red; */
   text-align: center;
   margin-bottom: 20%;
 }
@@ -639,7 +626,7 @@
   /* gap: 20px; */
   /* margin: 20px; */
   width: 80%;
-  margin-left: 8%;
+  margin-left: 6%;
 }
 
 .counter-display {
@@ -657,7 +644,7 @@
 .counter-name {
   margin-top: 8%;
   margin-bottom: 8%;
-  margin-left: 3%;
+  margin-left: 1%;
   text-align: center;
   padding: 20px;
   border-radius: 8px;
@@ -673,7 +660,7 @@
   position: absolute;
 }
 .counter-signper {
-  margin-top: 16%;
+  margin-top: 18.1%;
   margin-left: -2%;
   /* position: fixed; */
   font-weight: bold;
@@ -1316,32 +1303,31 @@
   margin-bottom: 5%;
 }
 .facility_aside_list_div img {
-  width: 8%;
+  width: 15%;
+  height: 14%;
   mix-blend-mode: multiply;
   clip-path: circle(50% at 50% 50%);
 }
 .facility_aside_list_div p {
   margin-left: 5%;
 }
-.facility_aside_list_main_div{
+.facility_aside_list_main_div {
   margin: 12% 12%;
 }
 
-
 /* photo gallery */
 
-
-.photogallery_year{
-  width:80%;
+.photogallery_year {
+  width: 80%;
   background-color: lightgrey;
-  height:7vh;
+  height: 7vh;
   display: flex;
   align-items: center;
   margin-left: 11%;
   border-radius: 10px;
   margin-top: 2%;
 }
-.photogallery_year a{
+.photogallery_year a {
   margin-left: 1.5%;
   background-color: rgb(3, 3, 110);
   width: 7%;
@@ -1371,16 +1357,13 @@
   width: 17vw;
   justify-content: center;
   align-content: center;
-
 }
 .photogallery_grid img {
   width: 17vw;
   height: 100%;
   border-radius: 20px;
- 
 }
 .photogallery_img_div {
-  
   width: 70%;
   height: 30vh;
   border-radius: 20px;
@@ -1392,38 +1375,35 @@
   font-weight: 100;
 }
 
-
 /* video tour */
-.video_tour{
+.video_tour {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   width: 80%;
   margin-left: 11%;
   gap: 40px;
   margin-top: 3%;
   margin-bottom: 3%;
 }
-.video_tour iframe{
+.video_tour iframe {
   border-radius: 20px;
-
 }
 
 /* virtual video tour */
-.virtual_video_tour{
+.virtual_video_tour {
   margin-left: 11%;
   margin-top: 3%;
   margin-bottom: 3%;
 }
-.virtual_video_tour iframe{
+.virtual_video_tour iframe {
   width: 90%;
   height: 70vh;
   border-radius: 10px;
 }
 
-
 /* curriculum-and-assessment */
-.curriculum-and-assessment-main-div{
-  margin-top:3% ;
+.curriculum-and-assessment-main-div {
+  margin-top: 3%;
   margin-left: 11%;
   margin-bottom: 3%;
   font-size: 25px;
@@ -1432,14 +1412,13 @@
   margin-right: 10%;
   width: 80%;
 }
-.curriculum-and-assessment-main-div span{
+.curriculum-and-assessment-main-div span {
   color: rgb(36, 36, 213);
   font-weight: bold;
 }
-.curriculum-and-assessment-main-div ul li{
+.curriculum-and-assessment-main-div ul li {
   list-style: decimal;
   margin-left: 1%;
-
 }
 .curriculum-and-assessment-div-2 {
   color: rgb(60, 56, 56);
@@ -1447,80 +1426,72 @@
   line-height: 1.3;
   font-size: 25px;
   margin-right: 10%;
-margin-bottom: 3%;
-
+  margin-bottom: 3%;
 }
-.curriculum-and-assessment-div-2 h2{
+.curriculum-and-assessment-div-2 h2 {
   font-size: 45px;
   font-weight: 10;
-  
-
 }
 .curriculum-and-assessment-div-2 a {
-text-decoration: none;
-color: rgb(18, 18, 232);
-
+  text-decoration: none;
+  color: rgb(18, 18, 232);
 }
-#curriculum-and-assessment-div-2-p1{
+#curriculum-and-assessment-div-2-p1 {
   margin-bottom: 2%;
-
 }
-.curriculum-and-assessment-div-2 p span{
+.curriculum-and-assessment-div-2 p span {
   color: rgb(36, 36, 213);
   font-weight: bold;
 }
-.curriculam-and-assessment-learning-system{
+.curriculam-and-assessment-learning-system {
   height: 15vh;
-  background-color: linear;background-image: linear-gradient(darkblue, rgb(97, 196, 229));
+  background-color: linear;
+  background-image: linear-gradient(darkblue, rgb(97, 196, 229));
   color: white;
   display: flex;
   align-items: center;
   width: 99vw;
   margin-bottom: 3%;
 }
-.curriculam-and-assessment-learning-system h2{
-font-size: 40px;
-font-weight: 10;
-margin-left: 8%;
+.curriculam-and-assessment-learning-system h2 {
+  font-size: 40px;
+  font-weight: 10;
+  margin-left: 8%;
 }
-.curriculam-and-assessment-learning-system-para p{
+.curriculam-and-assessment-learning-system-para p {
   line-height: 1.3;
   font-size: 25px;
   width: 50%;
   /* margin-left: 10%; */
 }
-.curriculam-and-assessment-learning-system-para a{
-text-decoration: none;
-color: rgb(18, 18, 232);
-
+.curriculam-and-assessment-learning-system-para a {
+  text-decoration: none;
+  color: rgb(18, 18, 232);
 }
-.curriculam-and-assessment-learning-system-para-main{
+.curriculam-and-assessment-learning-system-para-main {
   display: flex;
   margin-left: 10%;
   margin-bottom: 3%;
 }
-.curriculam-and-assessment-learning-system-para-img{
- display: inline-block;
- margin-left: 55%;
- position: absolute;
- 
+.curriculam-and-assessment-learning-system-para-img {
+  display: inline-block;
+  margin-left: 55%;
+  position: absolute;
 }
-.curriculam-and-assessment-learning-system-para-img img{
-margin-top: 5%;
- width: 25vw;
+.curriculam-and-assessment-learning-system-para-img img {
+  margin-top: 5%;
+  width: 25vw;
 }
-.curriculam-and-assessment-learning-system-para-main2{
+.curriculam-and-assessment-learning-system-para-main2 {
   width: 78%;
   margin-left: 10%;
   font-size: 25px;
   margin-bottom: 3%;
   margin-top: 3%;
-
 }
 
-
 /* best academic practices */
-.bestacademicpraticesmain{
+.bestacademicpraticesmain {
   width: 80%;
   display: flex;
   margin-left: 15%;
@@ -1528,19 +1499,19 @@ margin-top: 5%;
   margin-top: 2%;
   margin-bottom: 2%;
 }
-.bestacademicpractices{
+.bestacademicpractices {
   width: 60%;
 }
-.bestacademicpraticesimg img{
-width: 25vw;
+.bestacademicpraticesimg img {
+  width: 25vw;
 }
 
 /* academic calendar */
-.academiccalendar{
+.academiccalendar {
   width: 94%;
-  margin: 3% ;
+  margin: 3%;
 }
-.academiccalendar img{
+.academiccalendar img {
   width: 100%;
 }
 
@@ -1579,41 +1550,232 @@ width: 25vw;
 
 /* guidelines-and-policies */
 
-.guidelines-and-policies-main-div{
+.guidelines-and-policies-main-div {
   margin: 3% 0;
   margin-left: 10%;
   font-size: 25px;
- 
+
   line-height: 1.3;
   display: flex;
-  
-
 }
-.guidelines-and-policies_list_div{
+.guidelines-and-policies_list_div {
   margin-left: 10%;
-
 }
-.guidelines-and-policies-main-div ul li{
-list-style:decimal;
+.guidelines-and-policies-main-div ul li {
+  list-style: decimal;
 }
-.guidelines-and-policies_img_div img{
+.guidelines-and-policies_img_div img {
   height: 90vh;
 }
 
 /* health-and-medicine */
-.health-and-medicine-main{
+.health-and-medicine-main {
   display: flex;
   font-size: 25px;
   width: 80%;
   margin-left: 10%;
   margin-top: 5%;
   margin-bottom: 2%;
-
 }
-.health-and-medicine-img img{
+.health-and-medicine-img img {
   width: 90%;
   margin-left: 5%;
 }
-.health-and-medicine-para{
+.health-and-medicine-para {
   width: 90%;
 }
+.health-and-medicine-main2 {
+  width: 80%;
+  margin-left: 10%;
+  font-size: 25px;
+  margin-bottom: 3%;
+}
+.health-and-medicine-main2 h2 {
+  margin-top: 2%;
+  margin-bottom: 5%;
+}
+.health-and-medicine-main2 p {
+  color: rgb(60, 54, 54);
+}
+
+/* student-responsibility-and-right */
+.student-responsibility-and-rights-main {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 25px;
+}
+.student-responsibility-and-rights-main h2 {
+  margin-bottom: 5%;
+  color: rgb(46, 115, 226);
+}
+.student-responsibility-and-rights-img img {
+  width: 20vw;
+  margin-top: 15%;
+  margin-left: 30%;
+}
+.student-responsibility-and-rights2 h2 {
+  margin-bottom: 2%;
+  color: rgb(46, 115, 226);
+}
+.student-responsibility-and-rights2 {
+  width: 80%;
+  margin-left: 10%;
+  font-size: 25px;
+}
+
+/* feedback form */
+
+.feedbackparentmain {
+  width: 90%;
+  margin-left: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+.feedback_form_input {
+  width: 50vw;
+  padding: 0.5%;
+  padding-left: 1.5%;
+  font-size: 25px;
+  border-radius: 10px;
+}
+.formsectiondiv {
+  width: 50vw;
+  height: 18%;
+  padding: 0.5%;
+  padding-left: 1.5%;
+  font-size: 28px;
+  border-radius: 10px;
+  border: 2px solid black;
+  color: rgb(103, 103, 103);
+  padding-top: 0.8%;
+}
+
+#section {
+  width: 10vw;
+
+  font-size: 28px;
+  border-radius: 10px;
+  border: 2px solid black;
+  color: rgb(103, 103, 103);
+  margin-left: 3%;
+}
+.feedback_form_textarea {
+  width: 50vw;
+  height: 20vh;
+  padding: 0.5%;
+  padding-left: 1.5%;
+  font-size: 25px;
+  border-radius: 10px;
+}
+#feedback_submit {
+  margin-left: 20%;
+  height: 6vh;
+  width: 10vw;
+  background-color: rgb(0, 132, 255);
+  color: white;
+  font-size: 29px;
+  border-radius: 10px;
+}
+
+/* Rules and Policies */
+.rules_and_policies_student_main {
+  display: flex;
+  width: 80%;
+  margin-left: 10%;
+  font-size: 28px;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+.rules_and_policies_para {
+  font-size: 28px;
+  width: 50%;
+}
+.rules_and_policies_img{
+  width: 40%;
+}
+.rules_and_policies_img > img{
+width: 100%;
+height: 100%;
+margin-left: 5%;
+}
+
+
+/* Contact */
+.contactmailgrid{
+  background-color: red;
+  border-radius: 20px;
+  height: 25vh;
+  justify-content: center;
+  text-align: center;
+  padding: 3%;
+  font-size: 25px;
+
+
+  
+}
+.contactmailgrid > h2{
+  margin-bottom: 10%;
+}
+.contactmailgrid > p{
+  line-height: 1.5;
+}
+.contactmailgridmain{
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  column-gap: 20px;
+   width: 70%;
+   margin-left: 14%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  }
+  .contactgrid1colorlight{
+    background-color:rgb(139, 189, 172);
+  }
+  .contactgrid2colordark{
+    background-color: rgb(95, 192, 160);
+    
+  }
+  .contactform{
+    background-color: rgb(0, 0, 83);
+    height: 80vh;
+    margin-bottom: 20px;
+  }
+  .contactform >h2{
+    color:white ;
+    text-align: center;
+    font-size: 70px;
+    font-weight: 10;
+    padding: 2%;
+  }
+  .contact_form_input{
+    background-color:rgb(224, 233, 230);
+    width: 45%;
+    padding: 1%;
+    margin-left: 3%;
+    border-radius: 20px;
+    border: 2px solid brown ;
+    font-size: 25px;
+  }
+  .contact_form_textarea{
+    background-color:rgb(224, 233, 230);
+
+    width: 93%;
+    height: 20vh;
+    padding: 1%;
+    margin-left: 3%;
+    border-radius: 20px;
+    border: 2px solid brown ;
+    font-size: 25px;
+  }
+  #contact_submit{
+    background-color:rgb(224, 233, 230);
+    padding: 1%;
+    margin-left: 45%;
+    border-radius: 20px;
+    border: 2px solid brown ;
+    font-size: 25px;
+  }
+  #contact_map{
+    margin-bottom: 1%;
+  }
